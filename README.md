@@ -41,4 +41,4 @@ python generate_binaural_samples.py --output binaural_samples.wav
 The script converts mono signals into binaural stereo by:
 1. **ITD**: Delaying one channel by several samples based on the speed of sound and average human ear distance.
 2. **ILD**: Applying gain differentials to simulate head shadowing.
-3. **Dynamic Panning**: Using block-based processing to move sounds in real-time across the azimuth.You've used 71% of your weekly rate limit. Your weekly rate limit will reset on April 27 at 8:00 AM. [Learn More](https://aka.ms/github-copilot-rate-limit-error)
+3. **Dynamic Panning**: Using block-based processing to move sounds in real-time across the azimuth.
